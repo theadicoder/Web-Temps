@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My - show case</title>
+</head>
+<style>
+    /* These the code of navigation only */
+   *{
+    margin: 0;
+   }
+
+   .nav{
+    margin:10px;
+    overflow:hidden;
+   }
+   
+   .nav h1{
+    text-align: left;
+    font-size: 25px;
+    margin:10px;
+    border-radius: 10px;
+    font-family: monospace;
+    color: #333;
+    padding: 15px;
+   }
+
+    .nav{
+        text-align: left;
+        margin: 20px;
+        background-color: #fff;
+    }
+
+    .nav ul{
+        background-color:red;
+        padding:7px;
+        border-radius: 9.1px;
+    }
+
+   .nav a{
+    color:#fff;
+    text-decoration: none;
+    margin: 5px;
+   }
+    /* These is the code of Home scetion only */
+    .home h2{
+      text-align: center;
+      margin:88px;
+      font-size: 25px;
+      color:red;
+      padding:02px;
+      font-family: monospace;
+    }
+
+    .home p{
+      text-align: center;
+      margin:88px;
+      font-size: 15px;
+      color:red;
+      padding:05px;
+      font-family: monospace;
+    }
+
+    .home section{
+      text-align: center;
+      margin:88px;
+      font-size: 5px;
+      width: 0.1px;
+      color:red;
+      padding:05px;
+      background-color: red;
+    }
+
+    /* These is the code of Service only */
+    .Service h1{
+        text-align: center;
+        color:red;
+        margin:5px;
+    }
+
+    .Service ul{
+        display:block;
+        color:red;
+        margin:30px;   
+        padding:25px;
+    }
+
+    .Service li{
+        display:block;
+        color:red;
+        margin:30px;   
+        padding:25px;
+        font-family: monospace;
+    }
+
+    /* These is the code of About only */
+    .About h1{
+       text-align: center;
+       padding:20px;
+       color:red;
+       margin:30px;
+       font-size: 30px;
+
+    }
+
+    .About h2 {
+        text-align: center;
+        margin:20px;
+        color:red;
+        display:block;
+        padding: 30px;
+    }
+
+    .About p {
+        text-align: center;
+        margin:20px;
+        display:block;
+        color: red;
+        font-family: monospace;
+        padding: 30px;
+    }
+
+    .About img{
+        width:650px;
+        display: block;
+        text-align: center;
+        margin: 25px;
+        padding:200px;
+    }
+    /* These the code of Contact only */
+    .Contact{
+        height: 900px;
+    }
+        form {
+        height:500px;
+        max-width: 600px;
+        margin: 30px auto;
+        padding: 60px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(188, 34, 34, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .Contact h1{
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: center;
+        color:red;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin:15px;
+    }
+
+    .get-started-button {
+        padding:20px;
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        border-radius: 12px;
+        font-size: 17px;
+        text-align: center;
+        margin:50px;
+    }
+
+    .section footer{
+        text-align: center;
+        margin:20px;
+    }
+
+    .section p{
+        font-size: 20px;
+        color:red;
+    }
+</style>
+<body>
+    <div class="nav">
+            <h1>Show Case</h1>
+        <nav>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="#Service">Service</a>
+                <a href="#About">About</a>
+                <a href="#Contact">Contact</a>
+            </ul>
+        </nav>
+    </div>
+    <div class="home">
+        <section>
+            <h2>Welcome to show case</h2>
+        </section>
+ 
+        <p>These is your site which can do any think 🚀 ⚓ related technology for you .</p>
+    </div>
+    <div class="Service" id="Service">
+        <h1> Service </h1>
+
+        <ul>
+            <li>These website provides you best deal </li>
+            <li>That website provide you best knowledge about computer, phone, cyber security, bug bounty etc.</li>
+            <li>That website provide you the best ai tool for make website, web applications, even every os operating systerm knowledge.</li>
+            <li>These website provide you the best or fast paid assistance about everything related technology and tech products</li>
+        </ul>
+    </div>
+    <div class="About" id="About">
+        <h1> About </h1>
+            <h2> Aaditya Thakur </h2>
+
+            <p> Hello i'm aaditya thakur i am the founder of that site, that will be provide you the very knowledgeable and amazing using of technology.</p>
+           <img src="about-img.jpg" alt="Picture">
+    </div>
+    <div class="Contact" id="Contact">
+        <form id="Contact" action="mailto:theadicoder@outlook.com" method="post" enctype="text/plain">
+            <h1> Contact </h1>
+            <input type="name" name="name" id="name" placeholder="Name :">
+            <input type="email" name="email" id="email" placeholder="Email :">
+            <input type="phone no" name="phone no" id="phone no" placeholder="Phone no : ">
+            <textarea name="Messagebox" id="Meassage" cols="30" rows="10" placeholder="Message :"></textarea>
+            <button type="submit" class="get-started-button">Submit</button>
+        </form>
+    </div>
+
+    <div class="section">
+        <footer>
+            <p>&copy; 2023 theadicoder. all rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

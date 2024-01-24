@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    overflow:hidden;
+}
+.header h1{
+   text-align: center;
+   margin: 15px;
+   color:#1a1212;
+   background-color:  #9d2020;
+   border-radius: 20px;
+   font-family: monospace;
+   font-size: 35px;
+}
+
+.header section{
+    background-color:#9d2020;
+    border-radius:10px ;
+    padding:60px;
+    height: 160;
+}
+
+.header a {
+    display: block;
+    margin: 15px;
+    text-decoration: none;
+    color:#1a1414;
+    text-align: center;
+    height:40px;
+    padding:10px;
+    border-radius: 20px;
+    background-color: rgb(168, 41, 43);
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    font-size:17px;
+}
